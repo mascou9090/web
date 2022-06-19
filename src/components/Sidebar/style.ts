@@ -13,7 +13,6 @@ export const SidebarS = styled.aside`
     font-size: 0.8rem;
   }
   img {
-    transition: opacity 1000ms;
     width:4rem;
     margin: 0 auto;
   }

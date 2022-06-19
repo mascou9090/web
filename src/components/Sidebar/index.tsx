@@ -16,7 +16,8 @@ export const Sidebar = () => {
       setTec(imagens[index]);
       index = index + 1;
       if(index === imagens.length) index = 0;
-      console.log(index);
+      console.log(index)
+      clearInterval()
     }, 2000);
   },[])
   return (
