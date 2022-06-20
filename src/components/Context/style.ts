@@ -1,6 +1,14 @@
 import styled from 'styled-components';
 
 export const ContextS = styled.main`
-  grid-area: main;
-  background-color: #9999f9;
+  width:70vw;
+  height:70vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:6rem;
+  img {
+    //border-radius: 200px;
+    max-width:10rem;
+  }
 `;

@@ -3,5 +3,6 @@ import styled from 'styled-components';
 export const FooterS = styled.footer`
   text-align: center;
   align-items: center;
-  grid-area: footer;
+  height:10rem;
+  background-color:rgba(0,0,0,0,0);
 `;

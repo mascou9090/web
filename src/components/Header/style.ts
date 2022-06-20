@@ -6,12 +6,17 @@ export const HeaderS = styled.header`
   justify-content: space-between;
   align-items: center;
   font-size: 3rem;
-  grid-area: 'header';
+  height:10vh;
+  
+  &{
+    border-bottom: 1px solid #503969;
+  }
 
   img {
+    margin-top: 1.5rem;
     margin-left: 1.5rem;
     width: 10rem;
-    height: 100%;
+    max-height: 160px;
   }
   nav {
     margin: 0;
@@ -21,8 +26,8 @@ export const HeaderS = styled.header`
   ul {
     display: flex;
     margin-right: 1rem;
-    margin-top:0;
-    padding-bottom:3rem;
+    margin-top:5rem;
+    padding-bottom:5rem;
   }
   li {
     list-style: none;
@@ -33,6 +38,7 @@ export const HeaderS = styled.header`
   }
   
 `;
+  
 export const Github = styled(AiFillGithub)`
   &{
     transition: all 0.5s;

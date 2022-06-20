@@ -7,8 +7,4 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
-  body {
-    background-color: #ccc;
-    color:#050A30;
-  }
 `;

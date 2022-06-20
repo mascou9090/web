@@ -12,8 +12,10 @@ export const Layout = () => {
     <LayoutS>
       <GlobalStyle />
       <Header />
-      <Sidebar />
-      <Context />
+      <div style={{display:'flex', height:'70vh'}}>
+        <Sidebar />
+        <Context />
+      </div>
       <Footer />
     </LayoutS>
   )
